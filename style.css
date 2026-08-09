@@ -15,17 +15,25 @@
     box-sizing: border-box;
 
 }
- body{
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     background-color: var(--cream);
+    font-family: "Montserrat", sans-serif;
+    color: var(--grey);
+    font-size: 0.875rem;
+}
+
+main{
+    flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    font-family: "Montserrat", sans-serif;
+    width: 100%;
+    padding: 2rem 1rem;
     flex-direction: column;
-    overflow: hidden;
-    color: var(--grey);
-    font-size: 0.875rem;
  }
 .card{
     display: grid;
@@ -83,6 +91,11 @@
 }
 
 .card-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.6rem;
+    width: 100%;
     background-color: var(--green-500);
     border: none;
     color: var(--white);
@@ -91,6 +104,7 @@
     cursor: pointer;
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
+    transition: background-color 0.2s ease;
 }
 
 .card-button::before{
@@ -104,6 +118,11 @@
     background-color: var(--green-700);
 }
 
+
+footer{
+    text-align: center;
+    padding: 0 1rem 2rem;
+}
 @media screen and (max-width: 40em){
     .card{
         grid-template-columns: 1fr;
