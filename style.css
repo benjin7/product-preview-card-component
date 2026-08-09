@@ -34,7 +34,7 @@ main{
     width: 100%;
     padding: 2rem 1rem;
     flex-direction: column;
-    margin-top: 5rem;
+    margin-top: 3rem;
  }
 .card{
     display: grid;
