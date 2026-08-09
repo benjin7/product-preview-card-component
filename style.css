@@ -107,6 +107,12 @@ main{
     transition: background-color 0.2s ease;
 }
 
+@media (prefers-reduced-motion: reduce) {
+    .card-button {
+        transition: none;
+    }
+}
+
 .card-button::before{
     content: url("images/icon-cart.svg");
     margin-right: 0.6rem;
