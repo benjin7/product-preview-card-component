@@ -120,9 +120,6 @@ main{
 
 .card-button::before{
     content: url("images/icon-cart.svg");
-    margin-right: 0.6rem;
-    display: inline-block;
-    vertical-align: middle;
 }
 
 .card-button:hover{
