@@ -104,7 +104,7 @@
     background-color: var(--green-700);
 }
 
-@media screen and (max-width: 640px){
+@media screen and (max-width: 40em){
     .card{
         grid-template-columns: 1fr;
         max-width: 90%;
@@ -112,7 +112,7 @@
 
     .image-container{
         height: auto;
-        min-height: 300px;
+        min-height: 18.75rem;
     }
 
     .card-content{
