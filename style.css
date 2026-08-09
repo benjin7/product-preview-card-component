@@ -71,8 +71,12 @@ main{
     font-weight: 700;
     font-size: 2rem;
     color: var(--black);
+    line-height: 2rem;
 }
 
+.card-description{
+    line-height: 1.3rem;
+}
 .card-price{
     display: flex;
     align-items: center;
